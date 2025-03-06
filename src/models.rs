@@ -1,9 +1,6 @@
-use diesel::prelude::*;
-use serde::{
-    Deserialize,
-    Serialize
-};
 use bon::Builder;
+use diesel::prelude::*;
+use serde::{Deserialize, Serialize};
 
 #[derive(Queryable, Selectable, Deserialize, Debug, Default, Serialize)]
 #[diesel(table_name = crate::schema::posts)]
@@ -26,5 +23,5 @@ pub struct NewPost {
 #[diesel(table_name = crate::schema::posts)]
 pub struct PostUpdate {
     title: Option<String>,
-    body: Option<String>
+    body: Option<String>,
 }

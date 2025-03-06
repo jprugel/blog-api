@@ -13,10 +13,12 @@ Database: Postgresql
   - [X] GET
   - [X] PUT/PATCH
   - [X] DELETE
-- [ ] Pagination / Filtering
-- [ ] Authentication / Authorization (JWT)
-- [ ] Rate Limiting and Abuse Prevention
+- [X] Pagination / Filtering
+- [X] Authentication / Authorization (JWT)
+- [x] Rate Limiting and Abuse Prevention
 - [ ] Search and Advanced Filtering
+  - [ ] Search
+  - [ ] Keywords
 - [ ] Media Uploads
 - [ ] Versioning to manage uploads
 - [ ] Webhooks and event driven features(Notify end users when something is added to the feed?)
